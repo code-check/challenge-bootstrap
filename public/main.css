@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
   margin-bottom: 0;
 }
 .item {
@@ -20,16 +20,6 @@
 .carousel-indicators {
   bottom:-5px;
 }
-#contact{
+#contact {
   max-width: 60%;
 }
-/*.img-circle {
-    border-radius: 180%;
-}*/
-/*@media screen and (min-width: 992px) {
-
-  #myCarousel {
-    max-width: 100%;
-    max-width: 600px;
-  }
-}*/

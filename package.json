@@ -1,13 +1,11 @@
 {
   "name": "challenge-bootstrap",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "CodeCheck Bootstrap Challenge",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "mocha specs/*/*"
   },
-  "author": "",
+  "author": "Givery Inc.",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.11.1",

@@ -1,0 +1,6 @@
+build:
+  - npm install
+console: true
+test:
+  - mocha specs/*
+  
