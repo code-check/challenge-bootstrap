@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CodeCheck Bootstrap Challenge",
   "scripts": {
-    "test": "mocha specs/*/*"
+    "test": "mocha specs --recursive"
   },
   "author": "Givery Inc.",
   "license": "ISC",

@@ -1,21 +1,25 @@
 {
-  "editable": [
-    "public/*",
-    "answer.md"
-  ],
-  "excludes": [
-    "challenge.json",
-    "solvedChallenge.html"
-  ],
   "tags": [
     "Bootstrap",
     "HTML5",
     "CSS3"
   ],
+  "editable": [
+    "public/*",
+    "answer.md",
+    "gitignore",
+    "package.json",
+    "gulpfile.js"
+  ],
+  "excludes": [
+    "challenge.json"
+  ],
+  "ignores": [
+    "solvedChallenge.html"
+  ],
   "readme": {
-    "en": "README.md",
-    "ja": "README_ja.md"
+    "en": "README.md"
   },
   "allowNewFile": true,
-  "test": "mocha specs/*"
+  "test": "mocha specs --recursive"
 }
